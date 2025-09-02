@@ -254,7 +254,7 @@ const Index = () => {
                 "/img/79a17946-4317-4712-bedd-b8eb0662ff14.jpg"
               ];
               return (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
+                <Card key={index} className="hover:shadow-lg transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-t-lg overflow-hidden">
                   <img 
                     src={images[index]} 
@@ -339,7 +339,7 @@ const Index = () => {
                 </Card>
               );
             })}
-            </div>
+          </div>
           </div>
         </div>
       </section>
