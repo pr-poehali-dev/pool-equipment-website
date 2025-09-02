@@ -273,7 +273,8 @@ const Index = () => {
                   <p className="text-sm text-muted-foreground">{project.equipment}</p>
                 </CardContent>
               </Card>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
